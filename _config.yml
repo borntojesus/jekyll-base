@@ -1,0 +1,16 @@
+production_url: https://site.com
+include:
+  [
+    "_pages",
+  ]
+
+sass:
+  style: compressed
+  sass_dir: _sass
+
+url: "https://site.com"
+#plugins:
+#  - jekyll-sitemap
+
+exclude:
+  [ "readme.md" ]
