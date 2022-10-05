@@ -5,8 +5,7 @@ include:
   ]
 
 sass:
-  style: compressed
-  sass_dir: _sass
+  sass_dir: _scss
 
 url: "https://site.com"
 #plugins:

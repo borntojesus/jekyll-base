@@ -1,0 +1,15 @@
+.lesson2 {
+  .list {
+    padding: 20px 0;
+    &__item {
+      padding: 5px;
+    }
+    &__link {
+      padding: 10px;
+      border-bottom: 3px indigo solid;
+    }
+  }
+  .container {
+    background: red;
+  }
+}
