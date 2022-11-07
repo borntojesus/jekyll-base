@@ -1,0 +1,21 @@
+@import "manifest/variables";
+@import "manifest/navigation";
+@import "manifest/hero";
+@import "manifest/navigation";
+@import "manifest/card-large";
+@import "manifest/card-post";
+
+body {
+
+}
+header {
+
+}
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.card-wrapper {
+  display: flex;
+}
+

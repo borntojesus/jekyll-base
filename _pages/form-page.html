@@ -1,0 +1,55 @@
+---
+layout: landing-page
+permalink: /form-page/
+title: page bootstrap example
+---
+<div class="form-page">
+
+    <div class="wrapper">
+        <div class="container">
+            <form class="form">
+                <h1 class="h1">
+                    Profile
+                </h1>
+                <div class="form__item-row">
+                    <div class="form__item form__item--upload">
+                        <div>
+                            <div class="form__item-upload-preview">
+                                <img src="/images/person.jpg" alt="upload preview image">
+                            </div>
+                        </div>
+                        <div>
+                            <input class="form__item-input form__item-input--upload" type="file"
+                                   id="avatar" name="avatar"
+                                   accept="image/png, image/jpeg">
+                            <button class="form__item-upload-delete">
+                                <img src="/images/icons/delete.svg" alt="upload delete icon">
+                            </button>
+                            <span class="form__item-description">
+                            Up to 1 MB (300x300 px)
+                        </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form__item-row">
+                    <div class="form__item">
+                        <lable class="form__item-lable" for="name">
+                            Name
+                        </lable>
+                        <input class="form__item-input" type="text" id="name" name="name">
+                    </div>
+                    <div class="form__item">
+                        <lable class="form__item-lable" for="name">
+                            Email
+                        </lable>
+                        <input class="form__item-input" type="email" id="email" name="email">
+                    </div>
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+
+</div>
+

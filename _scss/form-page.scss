@@ -1,0 +1,38 @@
+.form-page {
+  .wrapper {
+    background: #E5E5E5;
+  }
+  .container {
+  }
+  .form {
+    &__item-row {
+      display: flex;
+    }
+    &__item-lable {
+      display: block;
+    }
+    &__item-input {
+      display: block;
+    }
+    &__item {
+
+    }
+    &__item--upload {
+      display: flex;
+    }
+
+    &__item-input {
+
+    }
+    &__item-input--upload {
+      display: inline-block;
+    }
+    &__item-upload-delete {
+      display: inline-block;
+    }
+    &__item-description {
+      display: block;
+    }
+  }
+
+}

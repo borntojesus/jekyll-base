@@ -1,0 +1,23 @@
+.card-large {
+  background: $primaryColor;
+
+
+  &__image {
+
+  }
+  &__content {
+
+  }
+  &--ltr {
+    .card-large {
+      order: 2;
+
+    }
+  }
+  @media (max-width: 767px) {
+
+  }
+  @media (max-width: 1279px) {
+
+  }
+}
